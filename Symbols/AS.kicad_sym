@@ -1691,4 +1691,1144 @@
       )
     )
   )
+  (symbol "SKTDLDE010"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "SW"
+      (id 0)
+      (at 0 8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SKTDLDE010"
+      (id 1)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:KEY-SMD_SKTDLDE010"
+      (id 2)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKTDLDE010_3-9-2-9-1-55-1-6N_C115365.html"
+      (id 3)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C115365"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SKTDLDE010_0_1"
+      (arc
+        (start -2.03 -3.81)
+        (mid -2.04 -3.74)
+        (end -2.03 -3.81)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc
+        (start 3.56 -3.81)
+        (mid 3.55 -3.74)
+        (end 3.56 -3.81)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 3.81) (xy -3.05 3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 3.81) (xy 3.56 3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.03 3.81) (xy 3.05 6.35)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -1.27) (xy -2.54 -6.35)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -6.35) (xy -1.27 -6.35)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line
+        (at -7.62 3.81 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at 7.62 3.81 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -1.27 0)
+        (length 5.08)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -3.81 0)
+        (length 5.08)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SK6805-EC15"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "LED"
+      (id 0)
+      (at 0 6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "SK6805-EC15"
+      (id 1)
+      (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:LED-SMD_4P-L1.5-W1.5-BL"
+      (id 2)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2890035"
+      (id 5)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "SK6805-EC15_0_1"
+      (rectangle
+        (start -7.62 3.81)
+        (end 7.62 -3.81)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -6.35 2.54)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -10.16 1.27 0)
+        (length 2.54)
+        (name "DIN" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -1.27 0)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -1.27 180)
+        (length 2.54)
+        (name "DOUT" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 1.27 180)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "NORA-B206-00B"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 73.66 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "NORA-B206-00B"
+      (id 1)
+      (at 0 -73.66 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:LGA-82_L14.3-W10.4_NORA-B106-00B"
+      (id 2)
+      (at 0 -76.20 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C42859754"
+      (id 5)
+      (at 0 -78.74 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "NORA-B206-00B_0_1"
+      (rectangle
+        (start -16.51 66.04)
+        (end 16.51 -66.04)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -15.24 64.77)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -2.54 68.58 270)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "A7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 68.58 270)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "A8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 68.58 270)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "B7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 15.24 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "K8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 12.70 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "K7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "K5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "K3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "K2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 2.54 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "F5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "F4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -2.54 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "E5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "E4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "B8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -10.16 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "B2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -12.70 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "A9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -15.24 -68.58 90)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "A1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 50.80 180)
+        (length 2.54)
+        (name "QSPI_CLK" (effects (font (size 1.27 1.27))))
+        (number "F1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 48.26 180)
+        (length 2.54)
+        (name "QSPI_CS" (effects (font (size 1.27 1.27))))
+        (number "E1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 45.72 180)
+        (length 2.54)
+        (name "QSPI_D0" (effects (font (size 1.27 1.27))))
+        (number "D2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 43.18 180)
+        (length 2.54)
+        (name "QSPI_D1" (effects (font (size 1.27 1.27))))
+        (number "E2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 40.64 180)
+        (length 2.54)
+        (name "QSPI_D2" (effects (font (size 1.27 1.27))))
+        (number "D1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 38.10 180)
+        (length 2.54)
+        (name "QSPI_D3" (effects (font (size 1.27 1.27))))
+        (number "F2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 30.48 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "A5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 27.94 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "A6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 25.40 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "C8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 22.86 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "D8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 20.32 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "E9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 17.78 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "H8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 15.24 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "H9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 12.70 180)
+        (length 2.54)
+        (name "GPIO" (effects (font (size 1.27 1.27))))
+        (number "J8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 5.08 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "A2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 2.54 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "A4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -0.00 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "B9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -2.54 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "C9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -5.08 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "D3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -7.62 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "D7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -10.16 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "D9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -12.70 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "E3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -15.24 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "E7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -17.78 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "F3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -20.32 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "F7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -22.86 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "G1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -25.40 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "G2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -27.94 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "G3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -30.48 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "G4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -33.02 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "H1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -35.56 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "H3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -38.10 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "H7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -40.64 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "J1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -43.18 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "J4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -45.72 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "J5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -48.26 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "J7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 19.05 -50.80 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "K1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -55.88 0)
+        (length 2.54)
+        (name "EAGP" (effects (font (size 1.27 1.27))))
+        (number "M9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -53.34 0)
+        (length 2.54)
+        (name "EAGP" (effects (font (size 1.27 1.27))))
+        (number "M8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -50.80 0)
+        (length 2.54)
+        (name "EAGP" (effects (font (size 1.27 1.27))))
+        (number "M2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -48.26 0)
+        (length 2.54)
+        (name "EAGP" (effects (font (size 1.27 1.27))))
+        (number "M1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -45.72 0)
+        (length 2.54)
+        (name "EAGP" (effects (font (size 1.27 1.27))))
+        (number "L9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -43.18 0)
+        (length 2.54)
+        (name "EAGP" (effects (font (size 1.27 1.27))))
+        (number "L1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -38.10 0)
+        (length 2.54)
+        (name "SPI_SCK" (effects (font (size 1.27 1.27))))
+        (number "B1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -35.56 0)
+        (length 2.54)
+        (name "SPI_MOSI" (effects (font (size 1.27 1.27))))
+        (number "C2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -33.02 0)
+        (length 2.54)
+        (name "SPI_MISO" (effects (font (size 1.27 1.27))))
+        (number "C1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -30.48 0)
+        (length 2.54)
+        (name "SPI_DCX" (effects (font (size 1.27 1.27))))
+        (number "C4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -27.94 0)
+        (length 2.54)
+        (name "SPI_CS" (effects (font (size 1.27 1.27))))
+        (number "B3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -20.32 0)
+        (length 2.54)
+        (name "UART_TXD" (effects (font (size 1.27 1.27))))
+        (number "G8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -17.78 0)
+        (length 2.54)
+        (name "UART_RXD" (effects (font (size 1.27 1.27))))
+        (number "G9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -15.24 0)
+        (length 2.54)
+        (name "UART_RTS" (effects (font (size 1.27 1.27))))
+        (number "F8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -12.70 0)
+        (length 2.54)
+        (name "UART_CTS" (effects (font (size 1.27 1.27))))
+        (number "F9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -5.08 0)
+        (length 2.54)
+        (name "RESET_N" (effects (font (size 1.27 1.27))))
+        (number "J3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 -2.54 0)
+        (length 2.54)
+        (name "ANT" (effects (font (size 1.27 1.27))))
+        (number "K9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 5.08 0)
+        (length 2.54)
+        (name "XTAL_32K" (effects (font (size 1.27 1.27))))
+        (number "C6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 7.62 0)
+        (length 2.54)
+        (name "XTAL_32K" (effects (font (size 1.27 1.27))))
+        (number "B6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 15.24 0)
+        (length 2.54)
+        (name "WAKE-UP" (effects (font (size 1.27 1.27))))
+        (number "J9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 17.78 0)
+        (length 2.54)
+        (name "WAKE-HOST" (effects (font (size 1.27 1.27))))
+        (number "E8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 25.40 0)
+        (length 2.54)
+        (name "SWDIO" (effects (font (size 1.27 1.27))))
+        (number "H2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 27.94 0)
+        (length 2.54)
+        (name "SWDCLK" (effects (font (size 1.27 1.27))))
+        (number "J2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 35.56 0)
+        (length 2.54)
+        (name "RF_CTRL2" (effects (font (size 1.27 1.27))))
+        (number "G7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 38.10 0)
+        (length 2.54)
+        (name "RF_CTRL1" (effects (font (size 1.27 1.27))))
+        (number "G5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 45.72 0)
+        (length 2.54)
+        (name "NFC2" (effects (font (size 1.27 1.27))))
+        (number "B5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 48.26 0)
+        (length 2.54)
+        (name "NFC1" (effects (font (size 1.27 1.27))))
+        (number "C5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 55.88 0)
+        (length 2.54)
+        (name "I2C_SDA" (effects (font (size 1.27 1.27))))
+        (number "B4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -19.05 58.42 0)
+        (length 2.54)
+        (name "I2C_SCL" (effects (font (size 1.27 1.27))))
+        (number "A3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "CY8CMBR3102-SX1IT_C2759924"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "CY8CMBR3102-SX1IT_C2759924"
+      (id 1)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+      (id 2)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2759924"
+      (id 5)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "CY8CMBR3102-SX1IT_C2759924_0_1"
+      (rectangle
+        (start -20.32 6.35)
+        (end 20.32 -6.35)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -19.05 5.08)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -22.86 3.81 0)
+        (length 2.54)
+        (name "I2CSCL" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -22.86 1.27 0)
+        (length 2.54)
+        (name "CMOD" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -22.86 -1.27 0)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -22.86 -3.81 0)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 22.86 -3.81 180)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 22.86 -1.27 180)
+        (length 2.54)
+        (name "CS1/PS1/GPO0/SH" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 22.86 1.27 180)
+        (length 2.54)
+        (name "CS0/PS0" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 22.86 3.81 180)
+        (length 2.54)
+        (name "I2CSDA" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "W25Q128JWPIQ"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "W25Q128JWPIQ"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:WSON-8_L6.0-W5.0-P1.27-BL-EP"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2689660"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "W25Q128JWPIQ_0_1"
+      (rectangle
+        (start -25.40 7.62)
+        (end 25.40 -7.62)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -24.13 6.35)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 27.94 5.08 180)
+        (length 2.54)
+        (name "EP" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 27.94 2.54 180)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 27.94 -0.00 180)
+        (length 2.54)
+        (name "HOLD#orRESET#(IO3)" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 27.94 -2.54 180)
+        (length 2.54)
+        (name "CLK" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 27.94 -5.08 180)
+        (length 2.54)
+        (name "DI(IO0)" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -27.94 -5.08 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -27.94 -2.54 0)
+        (length 2.54)
+        (name "WP#(IO2)" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -27.94 -0.00 0)
+        (length 2.54)
+        (name "DO(IO1)" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -27.94 2.54 0)
+        (length 2.54)
+        (name "~{CS}" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "DA7280-00FVC"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 11.43 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "DA7280-00FVC"
+      (id 1)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:QFN-12_L3.0-W3.0-P0.65-TL"
+      (id 2)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C2155359"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "DA7280-00FVC_0_1"
+      (rectangle
+        (start -13.97 8.89)
+        (end 13.97 -8.89)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -12.70 7.62)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -16.51 6.35 0)
+        (length 2.54)
+        (name "GPI_2" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -16.51 3.81 0)
+        (length 2.54)
+        (name "GPI_1" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -16.51 1.27 0)
+        (length 2.54)
+        (name "GPI_0/PWM" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -16.51 -1.27 0)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -16.51 -3.81 0)
+        (length 2.54)
+        (name "OUTP" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -16.51 -6.35 0)
+        (length 2.54)
+        (name "GND_1" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 16.51 -6.35 180)
+        (length 2.54)
+        (name "GND_2" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 16.51 -3.81 180)
+        (length 2.54)
+        (name "OUTN" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 16.51 -1.27 180)
+        (length 2.54)
+        (name "VDDIO" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 16.51 1.27 180)
+        (length 2.54)
+        (name "SDA" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 16.51 3.81 180)
+        (length 2.54)
+        (name "SCL" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 16.51 6.35 180)
+        (length 2.54)
+        (name "nIRQ" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "BMP581"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "BMP581"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "AS:LGA-10_L2.0-W2.0-P0.50-TL_BMP581"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C5362283"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "BMP581_0_1"
+      (rectangle
+        (start -8.89 7.62)
+        (end 8.89 -7.62)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -7.62 6.35)
+        (radius 0.38)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -11.43 5.08 0)
+        (length 2.54)
+        (name "VDDIO" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 2.54 0)
+        (length 2.54)
+        (name "SCK" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -0.00 0)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -2.54 0)
+        (length 2.54)
+        (name "SDI" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -11.43 -5.08 0)
+        (length 2.54)
+        (name "SDO" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -5.08 180)
+        (length 2.54)
+        (name "CSB" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -2.54 180)
+        (length 2.54)
+        (name "INT" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 -0.00 180)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 2.54 180)
+        (length 2.54)
+        (name "VSS" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 11.43 5.08 180)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 )
